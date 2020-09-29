@@ -10,7 +10,7 @@
     <body>
 
         <!--Summary of the city-->
-        <div>
+        <div id="summary" class="description">
             <h1 style="text-align: center;">Yuki's Favorite City: Amsterdam</h1>
             <p>Amsterdam is the capital and most popular city of Netherlands.
                 Amsterdam's main attractions not only include historic canals,
@@ -22,7 +22,7 @@
         </div>
         <hr>
         <!--Table of Contents (unordered list and link of navigation)-->
-        <div>
+        <div id="table-of-contents" class="nav">
             <h2>Table of Contents</h2>
             <nav>
                 <a href="#restaurants">Restaurants</a>
@@ -32,28 +32,26 @@
         </div>
         <hr>
         <!--Restaurants-->
-        <div id="restaurants">
+        <div id="restaurants" class="description">
             <h2>Restaurants</h2>
-            <div>
+            <div id="buffet-van-odette-desc" class="text-description">
                 <h3>Buffet van Odette</h3>
-                <p class="description">
-                    <h4>Description </h4>
+                <h4>Description </h4>
+                <p>
                     This sweet soup-and-salad spot is set up right in the center of Amsterdam’s most notable sights 
                     and offers the kind of light-yet-nourishing breakfasts and lunches—including a robust salad bar 
                     where you can get heaps of fresh veggies for a good price—that fill you up without weighing you down. 
                     If staying late at the museums, the three-course dinner changes daily according to what’s in season. 
                     Weather-permitting, grab a seat at one of the outdoor tables.
                 </p>
-                <p>
-                    <h4>Location Highlights </h4>
-                    <ul>
-                        <li>Good for groups.</li>
-                        <li>Good for kids.</li>
-                        <li>Takes reservations.</li>
-                    </ul>
-                </p>
+                <h4>Location Highlights</h4>
+                <ul>
+                    <li>Good for groups.</li>
+                    <li>Good for kids.</li>
+                    <li>Takes reservations.</li>
+                </ul>
             </div>    
-            <table>
+            <table id="buffet-info" class="infobox">
                 <tr>
                     <th scope="row">Price</th>
                     <td>US$17 - US$52</td>
@@ -71,77 +69,70 @@
                     <td>Mon-Sun: 10am - 12am</td>
                 </tr>
             </table>
-            <div>
-                <h4>Image: </h4>
-                <img alt="buffet van odette" 
-                    src="https://i1.wp.com/amsterdamwonderland.com/wp-content/uploads/2017/01/buffet-0600-e1432036505571.jpg" 
-                    width=600>
-            </div>
-            <div>
-                <h4>Map: </h4>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.4909249435923!2d4.886273631530469!3d52.362318403842615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609eb9265543f%3A0x64ea25a41b571db5!2zUHJpbnNlbmdyYWNodCA1OTgsIDEwMTcgS1MgQW1zdGVyZGFtLCDojbflhbA!5e0!3m2!1szh-CN!2sus!4v1601401836336!5m2!1szh-CN!2sus" 
-                    width="600" height="450" frameborder="0" 
-                    style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                </iframe>
-            </div>
+
+            <h4>Image</h4>
+            <img alt="buffet van odette" 
+                src="https://i1.wp.com/amsterdamwonderland.com/wp-content/uploads/2017/01/buffet-0600-e1432036505571.jpg" 
+                width=600>
+
+            <h4>Map</h4>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.4909249435923!2d4.886273631530469!3d52.362318403842615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609eb9265543f%3A0x64ea25a41b571db5!2zUHJpbnNlbmdyYWNodCA1OTgsIDEwMTcgS1MgQW1zdGVyZGFtLCDojbflhbA!5e0!3m2!1szh-CN!2sus!4v1601401836336!5m2!1szh-CN!2sus" 
+                width="600" height="450" 
+                style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
         </div>
         <hr>
         <!--Museums-->
-        <div id="museums">
+        <div id="museums" class="description">
             <h2>Museums</h2>
-            <div>
-                <h3>Van Gogh Museum</h3>
-                <div class="description">
-                    <h4>Description</h4>
-                    <p>
-                        The Van Gogh Museum is a Dutch art museum 
-                        dedicated to the works of Vincent van Gogh and his contemporaries. 
-                        The museum contains the largest collection of Van Gogh's paintings and drawings in the world. 
-                        In 2019, the Van Gogh Museum launched the Meet Vincent Van Gogh Experience, 
-                        a technology-driven "immersive exhibition" on Van Gogh's life and works, which has toured globally.
-                    </p>
-                </div>
-                <div>
-                    <h4>Collection</h4>
-                    <h5>Works by Vincent van Gogh</h5>
-                    <p>The museum houses the largest Van Gogh collection in the world with 200 paintings, 
-                        400 drawings, and 700 letters by the artist, according to <a href="https://en.wikipedia.org/wiki/Van_Gogh_Museum#cite_note-29" alt="Wikipedia">Wikipedia</a>.
-                        <ul>
-                            <li>His selected works from Nuenen (1880–1885)</li>
-                            <li>His selected works from Antwerp (1886)</li>
-                            <li>His selected works from Paris (1886–1888)</li>
-                            <li>His selected works from Arles (1888–1889)</li>
-                            <li>His selected works from Saint-Rémy (1889–1890)</li>
-                            <li>His selected works from Auvers-sur-Oise (1890)</li>
-                        </ul>
-                    </p>
+            <h3>Van Gogh Museum</h3>
+            <h4>Description</h4>
+            <p>
+                The Van Gogh Museum is a Dutch art museum 
+                dedicated to the works of Vincent van Gogh and his contemporaries. 
+                The museum contains the largest collection of Van Gogh's paintings and drawings in the world. 
+                In 2019, the Van Gogh Museum launched the Meet Vincent Van Gogh Experience, 
+                a technology-driven "immersive exhibition" on Van Gogh's life and works, which has toured globally.
+            </p>
+            <h4>Collection</h4>
+            <h5>Works by Vincent van Gogh</h5>
+            <p>The museum houses the largest Van Gogh collection in the world with 200 paintings, 
+                400 drawings, and 700 letters by the artist, according to <a href="https://en.wikipedia.org/wiki/Van_Gogh_Museum#cite_note-29">Wikipedia</a>.
+            </p>
+            <ul>
+                <li>His selected works from Nuenen (1880–1885)</li>
+                <li>His selected works from Antwerp (1886)</li>
+                <li>His selected works from Paris (1886–1888)</li>
+                <li>His selected works from Arles (1888–1889)</li>
+                <li>His selected works from Saint-Rémy (1889–1890)</li>
+                <li>His selected works from Auvers-sur-Oise (1890)</li>
+            </ul>
 
-                    <h5>Works by contemporaries</h5>
-                    <p>The museum also features notable artworks by Van Gogh's contemporaries in the Impressionist and post-Impressionist movements 
-                        and holds extensive exhibitions on various subjects from 19th Century art history.
-                        <ul>
-                            <li>Sculputures by <em>Auguste Rodin</em> and <em>Jules Dalou</em></li>
-                            <li>Paintings by 
-                                <ul style="font-style: italic;">
-                                    <li>John Russell</li>
-                                    <li>Émile Bernard</li>
-                                    <li>Maurice Denis</li>
-                                    <li>Kees van Dongen</li>
-                                    <li>Paul Gauguin</li>
-                                    <li>Édouard Manet</li>
-                                    <li>Claude Monet</li>
-                                    <li>Odilon Redon, etc.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
+            <h5>Works by contemporaries</h5>
+            <p>The museum also features notable artworks by Van Gogh's contemporaries in the Impressionist and post-Impressionist movements 
+                and holds extensive exhibitions on various subjects from 19th Century art history.
+            </p>
+            <ul>
+                <li>Sculputures by <em>Auguste Rodin</em> and <em>Jules Dalou</em></li>
+                <li>Paintings by 
+                    <ul style="font-style: italic;">
+                        <li>John Russell</li>
+                        <li>Émile Bernard</li>
+                        <li>Maurice Denis</li>
+                        <li>Kees van Dongen</li>
+                        <li>Paul Gauguin</li>
+                        <li>Édouard Manet</li>
+                        <li>Claude Monet</li>
+                        <li>Odilon Redon, etc.</li>
+                    </ul>
+                </li>
+            </ul>
+            
         </div>
         <hr>
         <!--Canals-->
-        <div id="canals">
+        <div id="canals" class="description">
             <h2>Canals</h2>
             <span>
                 Source: 
@@ -149,63 +140,59 @@
                     Wikipedia: Canals of Amsterdam
                 </a>
             </span>
-            <div>
-                <h3>Description</h3>
-                <p>
-                    Much of the Amsterdam canal system is the successful outcome of city planning. 
-                    The canals in Amsterdam are now used for tourism, recreation, houseboats, 
-                    and a relatively small amount of private transport compared to the main modes of walking, light rail, subway, and bicycle. 
-                    Most of the canals are paralleled by automobile roads on both sides.
-                </p>
-            </div>
-            <div>
-                <h3>Notable Canals</h3>
-                <ul>
-                    <li>
-                        Singel
-                        <p>
-                            Singel encircled the medieval city of Amsterdam. 
-                            The canal runs from the IJ Bay, near Central Station, 
-                            to the Muntplein square, where it meets the Amstel river. 
-                            It is now the inner-most canal in Amsterdam's semicircular ring of canals. 
-                        </p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Amsterdam_%28NL%29%2C_Singel_--_2015_--_7171.jpg/2560px-Amsterdam_%28NL%29%2C_Singel_--_2015_--_7171.jpg"
-                            alt="singel" width="600">
-                    </li>
-                    <li>
-                        Herengracht
-                        <p>
-                            Herengracht (Patricians' Canal or Lords' Canal) 
-                            is the first of the three major canals in the city centre of Amsterdam. 
-                            The canal is named after the heren regeerders who governed the city in the 16th and 17th century.
-                        </p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Herengracht_2010.JPG/2560px-Herengracht_2010.JPG"
-                            alt="Herengracht" width="600">
-                    </li>
-                    <li>
-                        Keizersgracht
-                        <p>
-                            Keizersgracht (literal English translation: Emperor's Canal) 
-                            is the second and widest of the three major canals in the city centre of Amsterdam, 
-                            in between Herengracht and Prinsengracht. 
-                            It is named after Maximilian I, Holy Roman Emperor.
-                        </p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/1994-07-14_Keizersgracht%2C_Amsterdam_-_%2814%29.jpg"
-                            alt="Keizersgracht" width="600">
-                    </li>
-                    <li>
-                        Prinsengracht
-                        <p>
-                            Prinsengracht (Prince's Canal) is the fourth and the longest of the main canals in Amsterdam. 
-                            It is named after the Prince of Orange. 
-                            Most of the canal houses along it were built during the Dutch Golden Age of the United Provinces. 
-                            The bridges over the Prinsengracht canal connect with the streets in the Jordaan in the West and the Weteringbuurt on the East side.
-                        </p>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Amsterdam_Canals_-_July_2006.jpg/2560px-Amsterdam_Canals_-_July_2006.jpg"
-                            alt="Prinsengracht" width="600">
-                    </li>
-                </ul>
-            </div>
+            <h3>Description</h3>
+            <p>
+                Much of the Amsterdam canal system is the successful outcome of city planning. 
+                The canals in Amsterdam are now used for tourism, recreation, houseboats, 
+                and a relatively small amount of private transport compared to the main modes of walking, light rail, subway, and bicycle. 
+                Most of the canals are paralleled by automobile roads on both sides.
+            </p>
+            <h3>Notable Canals</h3>
+            <ul>
+                <li>
+                    Singel
+                    <p>
+                        Singel encircled the medieval city of Amsterdam. 
+                        The canal runs from the IJ Bay, near Central Station, 
+                        to the Muntplein square, where it meets the Amstel river. 
+                        It is now the inner-most canal in Amsterdam's semicircular ring of canals. 
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Amsterdam_%28NL%29%2C_Singel_--_2015_--_7171.jpg/2560px-Amsterdam_%28NL%29%2C_Singel_--_2015_--_7171.jpg"
+                        alt="singel" width="600">
+                </li>
+                <li>
+                    Herengracht
+                    <p>
+                        Herengracht (Patricians' Canal or Lords' Canal) 
+                        is the first of the three major canals in the city centre of Amsterdam. 
+                        The canal is named after the heren regeerders who governed the city in the 16th and 17th century.
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Herengracht_2010.JPG/2560px-Herengracht_2010.JPG"
+                        alt="Herengracht" width="600">
+                </li>
+                <li>
+                    Keizersgracht
+                    <p>
+                        Keizersgracht (literal English translation: Emperor's Canal) 
+                        is the second and widest of the three major canals in the city centre of Amsterdam, 
+                        in between Herengracht and Prinsengracht. 
+                        It is named after Maximilian I, Holy Roman Emperor.
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/1994-07-14_Keizersgracht%2C_Amsterdam_-_%2814%29.jpg"
+                        alt="Keizersgracht" width="600">
+                </li>
+                <li>
+                    Prinsengracht
+                    <p>
+                        Prinsengracht (Prince's Canal) is the fourth and the longest of the main canals in Amsterdam. 
+                        It is named after the Prince of Orange. 
+                        Most of the canal houses along it were built during the Dutch Golden Age of the United Provinces. 
+                        The bridges over the Prinsengracht canal connect with the streets in the Jordaan in the West and the Weteringbuurt on the East side.
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Amsterdam_Canals_-_July_2006.jpg/2560px-Amsterdam_Canals_-_July_2006.jpg"
+                        alt="Prinsengracht" width="600">
+                </li>
+            </ul>
         </div>
         <hr>
         <!--Submit user's favorite city name-->
@@ -214,6 +201,5 @@
             <input type="text" name="city name">
             <input type="submit" name="Tell me!">
         </form>
-        
     </body>
 </html>
